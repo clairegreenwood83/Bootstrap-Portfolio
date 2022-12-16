@@ -1,0 +1,42 @@
+body { 
+    font-family: 'Nanum Gothic', sans-serif;
+    color: black;
+    background-color: rgb(255, 239, 249);
+}
+
+.navbar-brand {
+    font-size: 50px;
+    font-family: 'Lobster', cursive;
+}
+.jumbotron {
+    background-image: url(../images/hero-banner.jpg);
+    background-size: cover;
+    height: 550px;
+    padding-top: 0px;
+  
+}
+
+.container {
+    font-family: 'Lobster', cursive;
+    display: flex;
+    
+}
+
+.lead {
+    font-size: 50px;
+    text-align: center;
+    padding-top: 60px;
+
+
+    
+}
+
+.display-4 {
+    font-size: 100px;
+    
+}
+.avatar {
+   height: 400px;
+   justify-content: center;
+  
+}
