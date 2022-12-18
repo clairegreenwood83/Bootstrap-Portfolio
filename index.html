@@ -18,58 +18,149 @@
     
     </head>
 
+    
     <body>
-<!--Navigation bar using code from Bootstrap-->
-<!--
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">CG</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav">
-                <li class="nav-item active">
-                  <a class="nav-link" href="#">About me <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Work</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Contact me</a>
-                </li>
-              </ul>
-            </div>
-          </nav>
---->
-        <div class="jumbotron jumbotron-fluid">
-            <div class="nav">
+<!--navbar section-->
+        
+        <section class="navigtion-bar">
                 <nav class="navbar navbar-expand-lg navbar-light">
-                    <a class="navbar-brand" href="#">CG</a>
+                    <a class="navbar-brand" href="#hero-text">CG</a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav">
-                            <li class="nav-item active">
-                                <a class="nav-link" href="#">About me <span class="sr-only">(current)</span></a>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#about-me">About me <span class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item">
-                             <a class="nav-link" href="#">Work</a>
+                                <a class="nav-link" href="#skills">Skills</a>
+                               </li>
+                            <li class="nav-item">
+                             <a class="nav-link" href="#work">Work</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Contact me</a>
+                                <a class="nav-link" href="#contact-me">Contact me</a>
                             </li>
                         </ul>
                     </div>
                 </nav>
+        </section>
+
+<!--Jumbotron section-->
+        <section>
+            <div class="jumbotron jumbotron-fluid">
+                <div class="container">
+                    <div class="row justify-content-between">
+                        <div class="col-lg-4">
+                            <img class="avatar" src="./assets/images/avatar.png">
+                        </div>
+                        <div class-="col-lg-8" id="hero-text">
+                            <p class="lead">"Hi, I'm Claire,<br> designer & web developer"</p>
+                        </div>
+                    </div>
+                </div>
             </div>
+        </section>
+
+<!--About me section-->
+
+        <section class="about-me" id="about-me">
             <div class="container">
-             <!-- <h1 class="display-4">CG</h1>-->
-             <img class="avatar" src="./assets/images/avatar.png">
-              <p class="lead">"Hi, I'm Claire,<br> designer & web developer"</p>
+                <div class="row">
+                    <div class="col-lg-3">
+                        <h2> About me</h2>
+                    </div>
+                    <div class="col-lg-9">
+                        <p>I am a self-driven, passionate and creative web designer and developer, who enjoys solving complex and challenging real world problems.</p>
+                    </div>
+                </div>
             </div>
-        </div>
+        </section>
+
+<!--Skills section-->
+
+        <section class="skills" id="skills">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <h2>Skills</h2>
+                    </div>
+                    <div class="col-lg-9">
+                        <p>
+                            Skills I hope to learn from bootcamp.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+<!--Work section-->
+        <section class="work" id="work">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <h2> Work</h2>
+                    </div>
+                    <div class="col-lg-9">
+                        <div class="card mb-3">
+                            <a href="https://github.com/clairegreenwood83"><img class="card-img-top" src="./assets/images/yellow-flowers.jpg" alt="yellow flowers"></a>
+                            <div class="card-body">
+                              <h5 class="card-title">Project 1</h5>
+                              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            </div>
+                        </div>
+                        <div class="card-deck">
+                            <div class="card">
+                                <a href="https://github.com/clairegreenwood83"><img class="card-img-top" src="./assets/images/flowers.jpg" alt="pink flowers"></a>
+                              <div class="card-body">
+                                <h5 class="card-title">Project 2</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                              </div>
+                            </div>
+                            <div class="card">
+                                <a href="https://github.com/clairegreenwood83"><img class="card-img-top" src="./assets/images/heart-flowers.jpg" alt="flowers in the shape of a heart"></a>
+                              <div class="card-body">
+                                <h5 class="card-title">Project 3</h5>
+                                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                              </div>
+                            </div>
+                            <div class="card">
+                                <a href="https://github.com/clairegreenwood83"><img class="card-img-top" src="./assets/images/leaves.jpg" alt="large green leaves"></a>
+                              <div class="card-body">
+                                <h5 class="card-title">Project 4</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+<!--Contact section-->
+
+        <section class="contact-me" id="contact-me">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <h2> Contact me</h2>
+                    </div>
+                    <div class="col-lg-9">
+                        <ul>
+                            <li>Email: cg.clairegreenwood@gmail.com</li>
+                            <li>GitHub: clairegreenwood83</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
         
+<!--Footer section-->
 
         <footer>
         
