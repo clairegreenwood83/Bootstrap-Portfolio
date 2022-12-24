@@ -6,6 +6,13 @@ body {
 
 }
 
+.navigation-bar {
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    z-index: 9999;
+    background-color: rgb(255, 239, 249);
+    width: 100%;
+}
 .navbar-brand {
     font-size: 50px;
     font-family: 'Lobster', cursive;
@@ -22,6 +29,7 @@ body {
     padding-top: 0px;
     display: flex;
     padding-bottom: 0;
+    height: 75vw;
   
 }
 #hero-text {
@@ -57,11 +65,16 @@ p, li {
 }
 
 .about-me {
-    height: 10vw;
+    height: 50vw;
+
 }
 
 h2 {
     font-size: 3vw;
+}
+
+.skills {
+    height: 50vw;
 }
 
 .col-lg-3 {
@@ -84,4 +97,7 @@ h2 {
 .contact-me .col-lg-9 {
     text-align: left;
     font-size: 1.5vw;
+}
+.card-body p {
+    font-size: 1vw;
 }
