@@ -18,13 +18,18 @@ body {
     font-family: 'Lobster', cursive;
 }
   
+.navbar-nav .nav-item.active .nav-link,
+.navbar-nav .nav-item:hover .nav-link {
+    color: #f90891;
+}
+
 .jumbotron {
     background: none;
     padding-top: 0px;
     display: flex;
     padding-bottom: 0;
-    height: 50vw;
     margin-top: 10%;
+    margin-bottom: 10%;
   
 }
 #hero-text {
@@ -58,9 +63,13 @@ p, li {
     margin-top: 5vw;
 
 }
-
+.image-me {
+    overflow: none;
+    object-fit: cover;
+    aspect-ratio: 1/1;
+    height: fit-content;
+}
 .about-me {
-    height: 50vw;
     padding-top: 10vw; /* ensures the about me heading can be viewed whilst navbar is fixded */
 
 }
@@ -97,11 +106,15 @@ h2 {
     text-align: center;
     font-size: 1.5vw;
 }
+
+.contact-me {
+    padding-top: 10vw;
+}
 .card-body p {
     font-size: 1vw;
 }
 
-
+/* contact form */
 #fs-frm input,
 #fs-frm select,
 #fs-frm textarea,
@@ -221,6 +234,13 @@ h2 {
     
 }
 
+.contact-icons >a:hover {
+    color: #f90891;
+    box-shadow: 8px -8px 20px 3px #f90891;
+
+}
+
 .contact-icons >a {
     color: inherit; /*allows the font awesome icon to inherit the color the surrounding font*/
+    
 }
