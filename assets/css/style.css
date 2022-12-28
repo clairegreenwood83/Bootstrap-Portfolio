@@ -107,6 +107,7 @@ p, li {
     object-fit: cover;
     aspect-ratio: 1/1;
     height: fit-content;
+    max-width: 100%;
 }
 .about-me {
     padding-top: 10vw; /* ensures the about me heading can be viewed whilst navbar is fixded */
@@ -135,7 +136,7 @@ h2 {
 .container {
     margin-bottom: 10%;
 }
-.col-3 {
+.col-sm-3 {
     border-right: solid;
     border-right-color: rgb(255, 122, 144) ;
     font-family: 'Lobster', cursive;
