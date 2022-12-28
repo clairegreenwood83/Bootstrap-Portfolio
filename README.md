@@ -12,4 +12,5 @@ The portfolio presents my name, avatar and a navigation bar which links to secti
 
 The portfolio can be viewed [here.](https://clairegreenwood83.github.io/Bootstrap-Portfolio/)
 
-![image](https://user-images.githubusercontent.com/118351853/207328178-84b58496-432d-428c-a38f-07580c2e1108.png)
+![image](![clairegreenwood83 github io_Bootstrap-Portfolio_](https://user-images.githubusercontent.com/118351853/209799753-795cb5d2-f6ce-4b1f-b2c7-ac999cc552d6.png)
+)
