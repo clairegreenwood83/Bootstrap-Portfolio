@@ -42,7 +42,7 @@ The website should include the following bootstrap components:
 
 # Portfolio sections
 
-The portfolio displays a navigation bar which links to sections about me, my work and contact information. The navigation bar contains a navigation menu developed using a Bootstrap navbar. Following this is a hero section which contains a jumbotron displaying my name, avatar and welcome message. Below this is a section entitled work where there are titled images of applications I have made, which when clicked on link the user to the deployed application. This section was developed utilising Bootstrap cards. Following this is a section detailing the skills I aim to acquire from the Bootcamp course I am currently undertaking. A contact section was designed using code for a contact form from Formspree (https://formspree.io/), this allows users to fill in their details and submit a form which will then be sent to my email box. A footer section displays icons from fontawesome (https://fontawesome.com/), which link to a new email page (mailto link), my GitHub homepage and my Linkedin homepage (still to be set up) respectively. All hyperlinks have been designed to have a hover effect and buttons have a box shadow effect on hover. The webpage has been designed to have a responsive layout and is adaptable, being able to be viewed on a range of different screen sizes. Due to the use of Bootstrap the use of media queries has been eliminated. Following its completion the webpage was then deployed to GitHub Pages. 
+The portfolio displays a navigation bar which links to sections about me, my work and contact information. The navigation bar contains a navigation menu developed using a Bootstrap navbar. Following this is a hero section which contains a jumbotron displaying my name, avatar and welcome message. Below this is a section entitled work where there are titled images of applications I have made, which when clicked on link the user to the deployed application. This section was developed utilising Bootstrap cards. Following this is a section detailing the skills I aim to acquire from the Bootcamp course I am currently undertaking. A contact section was designed using code for a contact form from Formspree (https://formspree.io/), this allows users to fill in their details and submit a form which will then be sent to my email inbox. A footer section displays icons from fontawesome (https://fontawesome.com/), which link to a new email page (mailto link), my GitHub homepage and my Linkedin homepage (still to be set up) respectively. All hyperlinks have been designed to have a hover effect and buttons have a box shadow effect on hover. The webpage has been designed to have a responsive layout and is adaptable, being able to be viewed on a range of different screen sizes. Due to the use of Bootstrap the use of media queries has been significantly reduced. Following its completion the webpage was then deployed to GitHub Pages. 
 
 # Links
 
@@ -52,5 +52,5 @@ The portfolio can be viewed [here.](https://clairegreenwood83.github.io/Bootstra
 
 # License 
 
- MIT
+ MIT license.
 
