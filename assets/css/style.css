@@ -338,5 +338,12 @@ h2 {
     margin-right: auto;
     width: 50%;
   }
-  }
-  
+
+  .avatar {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+}
