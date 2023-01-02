@@ -50,5 +50,7 @@ The portfolio can be viewed [here.](https://clairegreenwood83.github.io/Bootstra
 
 ![clairegreenwood83 github io_Bootstrap-Portfolio_](https://user-images.githubusercontent.com/118351853/209799753-795cb5d2-f6ce-4b1f-b2c7-ac999cc552d6.png)
 
-# License MIT
+# License 
+
+ MIT
 
