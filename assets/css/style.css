@@ -315,7 +315,7 @@ h2 {
     color: inherit; /*allows the font awesome icon to inherit the color the surrounding font*/
 }
 
-@media (max-width: 575px) {
+@media (max-width: 768px) {
   .col-sm-3 { 
     border-right: hidden; }
 
