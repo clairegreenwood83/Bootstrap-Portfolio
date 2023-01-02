@@ -71,7 +71,7 @@ body {
 }
 
 p, li {
-    font-size: 1.5vw;
+  font-size: 1.5vw;
 }
 
 /* hero section text */
@@ -140,7 +140,7 @@ h2 {
  }
 
 .container {
-    margin-bottom: 10%;
+  margin-bottom: 10%;
 }
 .col-sm-3 {
   border-right: solid;
@@ -305,16 +305,17 @@ h2 {
     font-size: 3vw;
 }
 
-/* hover effect and box-shadow of social media icons */
-.contact-icons >a:hover {
+
+.contact-icons >a:hover { /* applies hover effect and box-shadow to social media icons */
     color: #f90891;
     box-shadow: 8px -8px 20px 3px #f90891;
 }
 
 .contact-icons >a {
-    color: inherit; /*allows the font awesome icon to inherit the color the surrounding font*/
+    color: inherit; /* allows the font awesome icon to inherit the color the surrounding font */
 }
 
+/* media query for smaller screen sizes */
 @media (max-width: 768px) {
   .col-sm-3 { 
     border-right: hidden; }
