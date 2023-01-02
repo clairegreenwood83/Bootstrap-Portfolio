@@ -48,7 +48,8 @@ The portfolio displays a navigation bar which links to sections about me, my wor
 
 The portfolio can be viewed [here.](https://clairegreenwood83.github.io/Bootstrap-Portfolio/)
 
-![clairegreenwood83 github io_Bootstrap-Portfolio_](https://user-images.githubusercontent.com/118351853/209799753-795cb5d2-f6ce-4b1f-b2c7-ac999cc552d6.png)
+![_Users_clairegreenwood_bootcamp_week-three_Bootstrap-Portfolio_index html (1)](https://user-images.githubusercontent.com/118351853/210253826-cd6aa57d-5b3c-40b0-88a2-54d1cd936d4f.png)
+
 
 # Technology Stack
  
