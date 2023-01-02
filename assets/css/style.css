@@ -24,11 +24,18 @@ body {
     z-index: 9999; /* Ensures navbar remains on top of other content */
     background-color: none; /* navbar transparent */
     width: 100%;
+    height: 5%;
 }
 .navbar-brand {
     font-size: 50px;
     font-family: 'Lobster', cursive;
+    background-color: rgb(255, 239, 249);
 }
+
+.navbar-toggler {
+  background-color: rgb(255, 239, 249);
+}
+
 
 .navbar .navbar-brand:hover {
     color: #f90891;
@@ -110,36 +117,35 @@ p, li {
     height: auto;
 }
 .about-me {
-    padding-top: 10vw; /* ensures the about me heading can be viewed whilst navbar is fixded */
-
+  padding-top: 10vw; /* ensures the about me heading can be viewed whilst navbar is fixded */
 }
 
 h2 {
-    font-size: 3vw;
+ font-size: 3vw;
 }
 /* skils section */
 
 .skills {
-    height: 50vw;
-    padding-top: 10vw;
+  height: 50vw;
+  padding-top: 10vw;
 }
 
 #skill-list {
-    margin-top: 3vw;
+  margin-top: 3vw;
 }
 /* work section */
 
  .work {
-    padding-top: 10vw;
+  padding-top: 10vw;
  }
 
 .container {
     margin-bottom: 10%;
 }
 .col-sm-3 {
-    border-right: solid;
-    border-right-color: rgb(255, 122, 144) ;
-    font-family: 'Lobster', cursive;
+  border-right: solid;
+  border-right-color: rgb(255, 122, 144) ;
+  font-family: 'Lobster', cursive;
 }
 
 .no-border {
@@ -147,13 +153,13 @@ h2 {
 }
 
 .card-img-top {
-    width: 100%;
-    height: 15vw;
-    object-fit: cover;
+  width: 100%;
+  height: 15vw;
+  object-fit: cover;
 }
 
 .card-body p {
-    font-size: 1vw;
+  font-size: 1vw;
 }
 
 .card-body h5 {
@@ -162,8 +168,8 @@ h2 {
 }
 
 .card .card-body {
-    max-height: 20vw; /* allows cards to remain the same height */
-    overflow: auto;
+  max-height: 20vw; /* allows cards to remain the same height */
+  overflow: auto;
 }
 
 /* contact me section */
@@ -308,3 +314,11 @@ h2 {
 .contact-icons >a {
     color: inherit; /*allows the font awesome icon to inherit the color the surrounding font*/
 }
+
+@media (max-width: 575px) {
+  .col-sm-3 { 
+    border-right: hidden; }
+
+  .navbar-brand {
+    display: none; } 
+  }
