@@ -2,9 +2,9 @@
 
 # Description
 
-Following my design and development of a portfolio webpage using flex-box and css grid, I was tasked with using the Bootstrap CSS Framework to build my portfolio layout. I used Bootstrap to create a navbar, jumbotron and 
+Following my design and development of a portfolio webpage using flex-box and css grid, I was tasked with using the Bootstrap CSS Framework to build my portfolio layout. The project specification is detailed below:
 
-# Project Specification
+## Project Specification
 
 Using Bootstrap, recreate your portfolio site with the following items:
 The website should include the following bootstrap components:
