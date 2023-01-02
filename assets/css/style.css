@@ -156,6 +156,11 @@ h2 {
     font-size: 1vw;
 }
 
+.card-body h5 {
+  font-size: 2.5vw;
+  font-weight: 700;
+}
+
 .card .card-body {
     max-height: 20vw; /* allows cards to remain the same height */
     overflow: auto;
